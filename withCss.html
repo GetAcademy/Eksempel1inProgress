@@ -6,7 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eksempel 1</title>
+    <style>
+        div {
+            background-color: lightgray;
+            color: white;
+        }
+
+        div.green {
+            background-color: #3cba54;
+            padding: 1% 0;
+            margin: 100px;
+        }
+    </style>
 </head>
+
+<!--
+    CSS
+     - inline styles
+     - regler for alle tagger
+     - regler for noen tagger, css class
+     - css i egen fil
+-->
 
 <body>
     <button>Ingen layout</button>
@@ -16,27 +36,29 @@
 
     <h1>Eksempel 1</h1>
 
-    <div> Verktøy </div>
     <div>
-        De to viktigste verktøyene vi skal bruke er disse:
-        <ul>
-            <li>
-                Koderedigeringsprogrammet
-                <a href="https://code.visualstudio.com/">
-                    Visual Studio Code</a>
-                <br />
-                Vi skal bruke noen <i>extensions</i>:
-                <ul>
-                    <li>JavaScript-booster</li>
-                    <li>es6-string-html</li>
-                    <li>live-server</li>
-                    <li>live-share</li>
-                </ul>
-            </li>
-            <li> Nettleseren
-                <a href="https://www.google.com/intl/no/chrome/">Google Chrome</a>
-            </li>
-        </ul>
+        <div class="green">Verktøy</div>
+        <div>
+            De to viktigste verktøyene vi skal bruke er disse:
+            <ul>
+                <li>
+                    Koderedigeringsprogrammet
+                    <a href="https://code.visualstudio.com/">
+                        Visual Studio Code</a>
+                    <br />
+                    Vi skal bruke noen <i>extensions</i>:
+                    <ul>
+                        <li>JavaScript-booster</li>
+                        <li>es6-string-html</li>
+                        <li>live-server</li>
+                        <li>live-share</li>
+                    </ul>
+                </li>
+                <li> Nettleseren
+                    <a href="https://www.google.com/intl/no/chrome/">Google Chrome</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <div>HTML</div>
@@ -101,17 +123,17 @@
     <div>
         <div>
             <button>◀</button>
-            <img src="img/head1.png"/>
+            <img src="img/head1.png" />
             <button>▶</button>
         </div>
         <div>
             <button>◀</button>
-            <img src="img/body1.png"/>
+            <img src="img/body1.png" />
             <button>▶</button>
         </div>
         <div>
             <button>◀</button>
-            <img src="img/legs1.png"/>
+            <img src="img/legs1.png" />
             <button>▶</button>
         </div>
     </div>
